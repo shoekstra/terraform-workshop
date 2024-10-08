@@ -1,0 +1,25 @@
+languageCode: en-us
+title: Terraform Workshop
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Search
+      weight: 50
+      params:
+        type: search
+
+    - name: GitHub
+      weight: 90
+      url: "https://github.com/shoekstra/terraform-workshop"
+      params:
+        icon: github
